@@ -1,0 +1,34 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.classpath
+*.project
+*.factorypath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.log
+app.log
+app2.log
+spring.log
+
+# Environment / secrets (never commit these)
+.env
+*.env
+
+# Generated sources
+generated-sources/
+generated-test-sources/
